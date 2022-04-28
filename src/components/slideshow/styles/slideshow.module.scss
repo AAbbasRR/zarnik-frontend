@@ -1,0 +1,81 @@
+@import url("../../../app/styles/Font.css");
+
+.CarouselItem {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.carouselImage {
+    height: 70vh;
+    z-index: 12;
+    display: flex;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.CarouselTitleContentBox {
+    font-size: 2.3rem;
+    color: #56459d;
+    font-family: Dubai_Bold !important;
+}
+
+.CarouselSubTitleContentBox {
+    font-size: 2.1rem;
+    color: #95d0d3;
+    font-family: Dubai_Light !important;
+    margin-top: -1.5rem;
+}
+
+.descriptionContent{
+    padding: 0px 2rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    font-family: Dubai_Light !important;
+    color: #56459d;
+    text-align: right;
+}
+
+@media screen and (max-width: 850px) {
+    .CarouselItem {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sliderImage{
+        position: absolute;
+        top: 0rem;
+        left: 4rem;
+        height: 60%;
+    }
+
+    .carouselImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contentBox {
+        align-items: flex-start;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .sliderImage{
+        left: 2rem;
+    }
+
+    .CarouselTitleContentBox {
+        font-size: 1.8rem;
+    }
+    
+    .CarouselSubTitleContentBox {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+}

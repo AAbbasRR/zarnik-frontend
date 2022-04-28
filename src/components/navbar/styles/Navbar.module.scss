@@ -1,0 +1,163 @@
+@import url("../../../app/styles/Font.css");
+
+.spaceHeader {
+    height: 2rem;
+}
+
+.navbarHeader {
+    background-color: #ffffff !important;
+    color: black !important;
+    padding: 0.75rem 3rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.55) !important;
+}
+
+.toolBarNavbar {
+    min-height: fit-content !important;
+    justify-content: space-between !important;
+    flex-direction: row-reverse;
+}
+
+.menuItemsBoxLeft {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.menuItemsBoxRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuLanguage {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuProducts {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuItem {
+    padding: 0rem 0.75rem;
+    box-sizing: border-box;
+    border-right: 0.5px solid #95d0d3;
+    font-family: Dubai_Regular;
+    font-size: 0.85rem;
+    color: #56459d;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menuItem:last-child {
+    border-right: 0px;
+}
+
+.menuItem:hover {
+    color: #95d0d3;
+    transition: 0.3s;
+}
+
+.menuLanguageItem {
+    padding: 0rem 0.75rem;
+    box-sizing: border-box;
+    border-left: 0.5px solid #d5d5d5;
+    font-family: Dubai_Regular;
+    font-size: 0.85rem;
+    color: #95d0d3;
+    display: flex;
+    align-items: center;
+}
+
+.menuLanguageItem:last-child {
+    border-left: 0px;
+}
+
+.menuProductsItem {
+    padding: 0rem 0.75rem;
+    box-sizing: border-box;
+    color: #56459d;
+    font-family: Dubai_Regular;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.menuPriductsIcon {
+    color: #ffcc00;
+}
+
+/*responsive codes */
+.navbarHeaderResponsive {
+    background-color: transparent !important;
+    top: 2rem !important;
+    box-shadow: none !important;
+}
+
+.menuLanguageResponsive {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.menuLanguageItemResponsive {
+    color: #56459d;
+    padding: 0rem 0.45rem;
+    box-sizing: border-box;
+    font-family: Dubai_Regular;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #56459d;
+}
+
+.menuLanguageItemResponsive:first-child {
+    border-right: none;
+    color: #ffcc00;
+}
+
+.responsiveMenuBox.active {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.responsiveMenu {
+    height: 100%;
+    width: 0;
+    transition: 0.15s;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: hidden;
+    padding-top: 2rem;
+    position: fixed;
+    z-index: 12;
+}
+
+.closesidebarBox {
+    width: 100%;
+    background: transparent;
+}
+
+.responsiveMenuItem {
+    color: #56459d;
+    padding: 0.4rem 2rem;
+    text-decoration: none;
+}
+
+.responsiveMenuItem:active {
+    color: #95d0d3;
+}

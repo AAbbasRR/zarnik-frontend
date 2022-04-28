@@ -1,0 +1,47 @@
+@import url("../../../app/styles/Font.css");
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.box404 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.number404 {
+    font-size: 15rem;
+    color: #56459d;
+    font-family: Dubai_Bold !important;
+    font-weight: bold;
+}
+
+.image404Logo {
+    width: 100%;
+}
+
+.descriptionNotFound {
+    font-size: 3rem;
+    color: #95d0d3;
+    font-family: Dubai_Light !important;
+    font-weight: bold;
+}
+
+.BackBTN {
+    margin-top: 1rem;
+    background-color: #56459d;
+    padding: 0.9rem 1.75rem;
+    border-radius: 25px;
+    border: 0px;
+    color: #fefefe;
+    display: flex;
+    font-family: Dubai_Light !important;
+    font-size: 0.9rem;
+    font-weight: bold;
+}

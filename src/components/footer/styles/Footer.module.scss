@@ -1,0 +1,359 @@
+@import url("../../../app/styles/Font.css");
+
+.scrollToTop {
+    background: #ffffff;
+    color: #56459d;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollToTop:hover {
+    cursor: pointer;
+}
+
+.scrollToTop svg {
+    font-size: 1.8rem;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom, #7e70bc, #493797);
+    padding: 2rem 1rem;
+}
+
+.footerColumnsGrid {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+}
+
+.columnsDivider {
+    margin-left: -1px !important;
+    background-color: #ffffff !important;
+}
+
+.footerCulomns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.25rem;
+}
+
+.footerCulomns ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+}
+
+.footerCulomns ul li {
+    list-style: none;
+    display: flex;
+    text-align: left;
+    margin-bottom: 0.3rem;
+}
+
+.footerCulomns ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Dubai_Regular !important;
+    font-size: 0.85rem;
+}
+
+.columnContactUs {
+    padding-left: 1rem;
+    color: #ffffff;
+    display: flex;
+    text-align: right;
+}
+
+.callNow {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-end;
+    color: #ffffff;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.newsletterBox {
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.newsletterForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 95%;
+}
+
+.newsletterFormInput {
+    border: none;
+    border-radius: 2rem;
+    padding: 12.5px 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 62%;
+    color: #2699fb;
+}
+
+.newsletterFormInput:focus {
+    outline: none;
+}
+
+.newsletterFormInput::placeholder {
+    color: #2699fb;
+    font-size: 0.8rem;
+    font-family: Dubai_Light !important;
+}
+
+.newsletterFormSubbmitButton {
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    bottom: 0.4rem;
+    right: 0;
+    color: #2699fb;
+    font-size: 0.8rem;
+    font-family: Dubai_Light !important;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 1rem;
+    height: 100%;
+}
+
+.footerLogo {
+    width: auto;
+}
+
+.zarnikAddress {
+    padding-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-family: Dubai_Light !important;
+    font-weight: bold;
+    margin: 0.5rem 0rem;
+}
+
+.descriptionAddress {
+    padding-left: 0.55rem;
+    font-size: 0.8rem;
+    font-family: Dubai_Light !important;
+    font-weight: normal;
+}
+
+.zarnikCopyRight {
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    text-align: left;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+/* responsive codes */
+.footerResponsiveBox {
+    background: #ffffff !important;
+    width: 100%;
+}
+
+.humenLifeImageBox {
+    width: 100%;
+    display: flex;
+    padding: 0px 8.3333%;
+}
+
+.humenLifeImage {
+    width: 65%;
+}
+
+.BorderRadiusLeft {
+    border-top-left-radius: 3rem !important;
+}
+
+.responsiveWhiteBox {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerResponsive {
+    background-image: linear-gradient(to right bottom, #56459d, #3d1a7a);
+    padding: 2rem 2rem;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.36);
+}
+
+.footerResponsiveItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.boxTitle {
+    font-size: 1.9rem;
+    display: flex;
+    margin-left: auto;
+    font-family: Dubai_Bold !important;
+}
+
+.boxSubTitle {
+    font-size: 1.5rem;
+    color: #95d0d3;
+    display: flex;
+    margin-left: auto;
+    font-family: Dubai_Regular !important;
+}
+
+.boxDescription {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    text-align: justify;
+    line-height: 1.65;
+    font-family: Dubai_Light !important;
+}
+
+.footerResponsiveItem span.yellowText {
+    color: #ffcc00;
+}
+
+.footerResponsiveItem span.blueText {
+    color: #95d0d3;
+}
+
+.footerResponsiveNewsletterItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+.newsletterFormResponsive {
+    display: flex;
+    width: 100%;
+}
+
+.newsletterFormInputResponsive {
+    border: none;
+    border-radius: 2rem;
+    padding: 12.5px 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.35);
+    color: #2699fb;
+}
+
+.newsletterFormInputResponsive:focus {
+    outline: none;
+}
+
+.newsletterFormInputResponsive::placeholder {
+    color: #2699fb;
+    font-size: 0.8rem;
+    font-family: Dubai_Light !important;
+}
+
+.zarnikAddressBoxResponsive {
+    display: flex;
+    justify-content: center;
+}
+
+.zarnikAddressResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: Dubai_Light !important;
+    font-weight: bold;
+    margin: 0.5rem 0rem;
+}
+
+.descriptionAddressResponsive {
+    padding-left: 0.55rem;
+    font-size: 0.9rem;
+    font-family: Dubai_Light !important;
+    font-weight: normal;
+}
+
+.copyRightResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-family: Dubai_Light !important;
+}
+
+.footerLogoResponsive {
+    width: 50%;
+}
+
+.zarnikCopyRightEngResponsive {
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    text-align: left;
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 599px) {
+    .humenLifeImage {
+        width: 90%;
+    }
+
+    .contactTitle {
+        font-size: 1.5rem;
+    }
+
+    .boxTitle {
+        font-size: 1.3rem;
+    }
+
+    .boxSubTitle {
+        font-size: .9rem;
+    }
+
+    .boxDescription {
+        font-size: 0.7rem;
+    }
+
+    .footerLogoResponsive {
+        width: 70%;
+    }
+
+    .zarnikCopyRightEngResponsive {
+        font-size: 0.7rem;
+    }
+}

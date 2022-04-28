@@ -1,0 +1,490 @@
+@import url("../../../app/styles/Font.css");
+
+.main {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    overflow: hidden;
+}
+
+.divResponsiveBox {
+    background: #111111;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slideshowCont {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slideShowBackGround {
+    position: absolute;
+    top: -25%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/images/slideshow/slider.png");
+    background-size: cover;
+    z-index: 0;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    position: relative;
+}
+
+.sectionContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sectionContentBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: right;
+    padding: 1rem 1.5rem;
+}
+
+.circleBackground {
+    background-image: radial-gradient(closest-side, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.75), transparent);
+    position: absolute;
+    width: 140%;
+    height: 165%;
+    bottom: 0;
+    top: 0;
+    right: auto;
+    left: auto;
+    margin: auto;
+    z-index: -1;
+}
+
+.TitrContentBox,
+.sectionOneTitrContentBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.titleContentBox {
+    font-size: 2.65rem;
+    color: #56459d;
+    font-family: Dubai_Bold !important;
+}
+
+.bigTitleContentBox {
+    font-size: 3.35rem;
+    color: #95d0d3;
+    font-family: Dubai_Regular !important;
+}
+
+.bigSubtitleContentBox {
+    font-size: 3.35rem;
+    color: #56459d;
+    font-family: Dubai_Bold !important;
+    margin-right: 0.5rem;
+}
+
+.subtitleContentBox {
+    font-size: 1.8rem;
+    color: #95d0d3;
+    font-family: Dubai_Regular !important;
+    margin-right: 0.5rem;
+}
+
+.bigDescriptionContentBox {
+    font-size: 2.1rem;
+    color: #ffcc00;
+    font-family: Dubai_Light !important;
+    margin-top: -1.5rem;
+}
+
+.descriptionContentBox {
+    font-size: 0.95rem;
+    color: #56459d;
+    line-height: 1.5;
+    font-family: Dubai_Light !important;
+    margin-top: 0.65rem;
+}
+
+.moreBTNContentBox {
+    margin-top: 1.6rem;
+    background-color: #56459d;
+    padding: 0.5rem 1.25rem;
+    border-radius: 25px;
+    border: 0px;
+    color: #fefefe;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Dubai_Light !important;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.moreBTNContentBox:hover {
+    background-color: #95d0d3;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.informationBTNContentBox {
+    margin-top: 1.6rem;
+    background-color: #ffffff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 25px;
+    border: 1px solid #95d0d3;
+    color: #95d0d3;
+    font-family: Dubai_Light !important;
+}
+
+.whatIsZarnikContainer {
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.whatIsZarnikBGImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: -2;
+}
+
+.whatIsZarnikWomanImage {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 2;
+}
+
+.whatIsZarnikImage img {
+    height: 100%;
+}
+
+.whatIsZarnikContent {
+    background-image: linear-gradient(to bottom, #56459d, #2b234f);
+    height: 80%;
+    position: absolute;
+    right: -10rem;
+    top: 10%;
+    width: 58%;
+    z-index: 1;
+    padding: 3rem 2.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.whatIsZarnikTitleContentBox {
+    font-size: 2.35rem;
+    color: #95d0d3;
+    font-family: Dubai_Bold !important;
+}
+
+.whatIsZarnikSubTitleContentBox {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    line-height: 1.4;
+    font-family: Dubai_Light !important;
+    margin-top: -0.5rem;
+}
+
+.whatIsZarnikDescriptionContentBox {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.4;
+    font-family: Dubai_Light !important;
+    margin-top: 1rem;
+}
+
+.whatIsZarnikWomanContentLogo {
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.womanDashLine {
+    position: absolute;
+}
+
+.womanDashLine img {
+    width: 200%;
+}
+
+.imageSection {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.imageSection img {
+    width: 100%;
+}
+
+.lifeWithZarnikimage {
+    width: 75%;
+    display: flex;
+    margin-right: auto;
+    margin-left: -3rem;
+    margin-bottom: -1rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .whatIsZarnikBGImage {
+        left: 0;
+        right: 0;
+    }
+    .whatIsZarnikWomanImage {
+        left: -14.5rem;
+        right: 0;
+    }
+
+    .whatIsZarnikContent {
+        right: -4.5rem;
+        width: 34rem;
+        padding: 1rem 3rem 1rem 5rem;
+    }
+
+    .whatIsZarnikTitleContentBox {
+        font-size: 1.85rem;
+    }
+
+    .whatIsZarnikSubTitleContentBox {
+        font-size: 1.4rem;
+    }
+
+    .whatIsZarnikDescriptionContentBox {
+        font-size: 0.9rem;
+    }
+
+    .whatIsZarnikWomanContentLogo {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .sectionOneTitrContentBox {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ResponsiveTitleContentBox {
+        font-size: 1.8rem;
+        color: #56459d;
+        font-family: Dubai_Bold !important;
+    }
+
+    .ResponsiveSubtitleContentBox {
+        font-size: 1.4rem;
+        color: #95d0d3;
+        font-family: Dubai_Regular !important;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .bigTitleContentBox {
+        font-size: 2.5rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 2.5rem;
+    }
+
+    .descriptionContentBox {
+        font-size: 0.9rem;
+    }
+
+    .moreBTNContentBox {
+        padding: 0.5rem 1.1rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .bigTitleContentBox {
+        font-size: 1.8rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 1.8rem;
+    }
+
+    .descriptionContentBox {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 727px) {
+    .ResponsiveTitleContentBox {
+        font-size: 1.5rem;
+    }
+
+    .ResponsiveSubtitleContentBox {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .main {
+        background-image: url("../../../assets/images/DashlineResponsive.png");
+    }
+
+    .subtitleContentBox {
+        margin-top: -1rem;
+    }
+
+    .ResponsiveTitleContentBox {
+        font-size: 1.8rem;
+    }
+
+    .ResponsiveSubtitleContentBox {
+        font-size: 1.4rem;
+    }
+
+    .bigTitleContentBox {
+        font-size: 3rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 3rem;
+    }
+
+    .sectionContentBox {
+        padding: 0rem 6rem !important;
+        margin-top: -1.5rem !important;
+    }
+
+    .imageSection {
+        justify-content: center;
+    }
+
+    .imageSection img {
+        max-width: 70%;
+    }
+
+    .imageSectionResponsive {
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .imageSectionResponsive img {
+        max-width: 100%;
+    }
+
+    .moreBTNContentBox {
+        margin-top: 1rem;
+        padding: 0.45rem 1rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .bigTitleContentBox {
+        font-size: 2.5rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 2.5rem;
+    }
+
+    .sectionContentBox {
+        padding: 0rem 5.5rem !important;
+    }
+
+    .imageSection img {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .ResponsiveTitleContentBox {
+        font-size: 1.6rem;
+    }
+
+    .ResponsiveSubtitleContentBox {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .bigTitleContentBox {
+        font-size: 2rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 2rem;
+    }
+
+    .bigDescriptionContentBox {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .ResponsiveTitleContentBox {
+        font-size: 1.4rem;
+    }
+
+    .ResponsiveSubtitleContentBox {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .bigTitleContentBox {
+        font-size: 2rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 2rem;
+    }
+
+    .sectionContentBox {
+        padding: 0rem 3rem !important;
+    }
+
+    .imageSection img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 302px) {
+    .ResponsiveTitleContentBox {
+        font-size: 1.2rem;
+    }
+
+    .ResponsiveSubtitleContentBox {
+        font-size: 1rem;
+    }
+
+    .bigTitleContentBox {
+        font-size: 1.7rem;
+    }
+
+    .bigSubtitleContentBox {
+        font-size: 1.7rem;
+    }
+
+    .bigDescriptionContentBox {
+        font-size: 1.4rem;
+    }
+}
