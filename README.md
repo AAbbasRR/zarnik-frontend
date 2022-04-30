@@ -6,6 +6,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+a Weblog template with PHP and Wordpress
+
+### creator: Abbas Rahimzadeh
+
+* [Github](https://github.com/AAbbasRR)
+* [Telegram](https://t.me/AAbbasRR)
+
+# requirements
+* [zarnik backend](https://github.com/AAbbasRR/zarnik-backend) for this repository backend source
+
 ### `npm start`
 
 Runs the app in the development mode.\
